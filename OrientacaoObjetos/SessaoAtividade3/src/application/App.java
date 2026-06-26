@@ -23,7 +23,7 @@ public class App {
 
         System.out.printf("FINAL GRADE = %.2f%n", estudante.finalGrade());
 
-        if (estudante.finalGrade() >= 60.0) {
+        if (estudante.finalGrade() >= 60) {
             System.out.println("PASS");
         } else {
             System.out.println("FAILED");
